@@ -1,0 +1,24 @@
+.root {
+  height: var(--height-40);
+  width: var(--width-40);
+  position: relative;
+  border-radius: var(--br-1000);
+  border: 1px solid var(--Color-Surface-Borders);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-50);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}

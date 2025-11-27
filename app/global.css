@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Figma Variables */
+
+  /* Color */
+  --Colors-Effects-Shadows-shadow-md-01: rgba(10, 13, 18, 0.1);
+  --Colors-Effects-Shadows-shadow-md-02: rgba(10, 13, 18, 0.06);
+  --Colors-Effects-Shadows-shadow-skeumorphic-inner: rgba(10, 13, 18, 0.05);
+  --Colors-Effects-Shadows-shadow-skeumorphic-inner-border: rgba(
+    10,
+    13,
+    18,
+    0.18
+  );
+  --Colors-Effects-Shadows-shadow-xs: rgba(10, 13, 18, 0.05);
+
+  /* Common Style Variables */
+
+  /* Color */
+  --Color-Badge-Alert-Alert-BG: #fef0c7;
+  --Color-Badge-Alert-Alert-text: #a85700;
+  --Color-Base-White: #fff;
+  --Color-CTA-Secondary-Stroke: #d8dbe4;
+  --Color-Surface-Borders: #e4e7ef;
+  --Color-Surface-Tabs-BG: #f1f4f9;
+  --Color-Text-Primary: #071028;
+  --Color-Text-Tertiary: #6a707e;
+
+  /* Gap */
+  --gap-2: 2px;
+  --gap-4: 4px;
+  --gap-8: 8px;
+  --gap-24: 24px;
+  --gap-32: 32px;
+
+  /* Padding */
+  --padding-2: 2px;
+  --padding-4: 4px;
+  --padding-8: 8px;
+  --padding-12: 12px;
+  --padding-14: 14px;
+  --padding-16: 16px;
+
+  /* BorderRadius */
+  --br-10: 10px;
+  --br-50: 50%;
+  --br-1000: 1000px;
+
+  /* Font */
+  --font-montserrat: Montserrat;
+
+  /* FontSize */
+  --fs-12: 12px;
+  --fs-14: 14px;
+
+  /* Shadows */
+  --Shadows-shadow-md: 0px 4px 6px -1px var(--Colors-Effects-Shadows-shadow-md-01),
+    0px 2px 4px -2px var(--Colors-Effects-Shadows-shadow-md-02);
+  --Shadows-shadow-xs-skeuomorphic: 0px 0px 0px 1px
+      var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border) inset,
+    0px -2px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner) inset,
+    0px 1px 2px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner);
+
+  /* WidthHeights */
+  --height-6: 6px;
+  --height-18: 18px;
+  --height-20: 20px;
+  --height-40: 40px;
+  --height-48: 48px;
+  --width-6: 6px;
+  --width-18: 18px;
+  --width-20: 20px;
+  --width-40: 40px;
+  --width-48: 48px;
+
+  /* LetterSpacings */
+  --ls--0_02: -0.02;
+}

@@ -1,0 +1,176 @@
+.transactionCard {
+  width: 100%;
+  box-shadow: var(--Shadows-shadow-md);
+  border-radius: 12px;
+  background-color: var(--Color-Base-White);
+  border: 1px solid var(--Color-Surface-Borders);
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-8);
+  gap: var(--gap-8);
+  min-width: 979px;
+}
+.cardIcon {
+  height: 160px;
+  width: 240px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-16);
+  gap: var(--gap-24);
+  text-align: left;
+  font-size: 16px;
+  color: var(--Color-Text-Primary);
+  font-family: var(--font-montserrat);
+}
+.frameContainer,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+.frameContainer {
+  gap: var(--gap-24);
+}
+.beverlyWaySpringfieldParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2);
+}
+.beverlyWaySpringfield {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listedForParent,
+.washingtonDc {
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Tertiary);
+}
+.washingtonDc {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listedForParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-2);
+  text-align: right;
+}
+.listedFor,
+.priceValue {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.priceValue {
+  font-size: 18px;
+  color: var(--Color-Text-Primary);
+}
+.profileCard,
+.userInfo {
+  display: flex;
+  gap: var(--gap-32);
+}
+.profileCard {
+  align-self: stretch;
+  align-items: flex-end;
+  font-size: var(--fs-14);
+}
+.userInfo {
+  flex: 1;
+  align-items: center;
+}
+.userInfo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profileFields {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-8);
+}
+.userData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.owner,
+.vanessaMartinez {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.owner {
+  font-size: var(--fs-12);
+  font-weight: 600;
+  color: var(--Color-Text-Tertiary);
+}
+.frameChild {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  background-color: var(--Color-Surface-Borders);
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Tertiary);
+}
+.badgeParent,
+.ctaParent {
+  display: flex;
+  gap: var(--gap-8);
+}
+.badgeParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ctaParent {
+  align-items: center;
+}
+.cta {
+  height: var(--height-48);
+  width: 192px;
+  box-shadow: var(--Shadows-shadow-xs-skeuomorphic);
+  padding: var(--padding-12) var(--padding-16);
+  box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+.cta {
+  cursor: pointer;
+  border: 1px solid var(--Color-CTA-Secondary-Stroke);
+  padding: var(--padding-14);
+  background-color: var(--Color-Surface-Tabs-BG);
+  height: var(--height-48);
+  width: var(--width-48);
+  box-shadow: var(--Shadows-shadow-xs-skeuomorphic);
+  border-radius: var(--br-10);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dotsHorizontalIcon {
+  height: var(--height-20);
+  width: 100%;
+  position: relative;
+}
